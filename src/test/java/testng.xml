@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NewSuite">
+  <test thread-count="5" name="NewTest">
+    <classes>
+      <class name="first_seleniumframework.Login_page_test"/>
+      <class name="first_seleniumframework.Checkout_step_two_page_test"/>
+      <class name="first_seleniumframework.Cart_page_test"/>
+      <class name="first_seleniumframework.Checkout_step_one_page_test"/>
+      <class name="first_seleniumframework.inventory_page_test"/>
+    </classes>
+  </test> <!-- NewTest -->
+</suite> <!-- NewSuite -->
